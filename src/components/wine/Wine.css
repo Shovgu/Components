@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 15%;
+    margin-left: 30%;
+    background-color: yellow;
+    width: 40%;
+}
+h1{
+    font-size: 40px;
+}
+.description{
+    font-style: italic;
+}

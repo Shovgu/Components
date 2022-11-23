@@ -5,6 +5,6 @@ import './main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
-  <Wine title="Merlot" description="France,$144.000 USD" rating="9.5"/>
+  <Wine title="Merlot" description="France,$144.000 USD" rating={9.5} like={true} />
   </>
 )

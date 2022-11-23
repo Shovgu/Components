@@ -14,6 +14,7 @@ class Wine extends Component {
                 <div className="main">
                     <p className="rating">{this.props.rating}</p>
                 </div>
+                {this.props.like ? <p className="heart">&#128157;</p> : null}
             </div>
         )
     }
